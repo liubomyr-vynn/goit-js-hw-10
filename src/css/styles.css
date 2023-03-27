@@ -1,3 +1,17 @@
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -17,4 +31,55 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+.country-info {
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+span {
+  font-weight: 400;
+}
+
+.country-item {
+  display: flex;
+  font-weight: 600;
+  font-size: 18;
+  align-items: center;
+}
+
+.country-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.country-img {
+  margin-right: 10px;
+}
+
+.country-title {
+  display: flex;
+  align-items: center;
+  font-size: 25;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+input {
+  display: flex;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 12px 12px;
+
+  border: 1px solid #42ecc2;
+  line-height: 1.15;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+input:hover {
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
 }
